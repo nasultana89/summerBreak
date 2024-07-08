@@ -61,6 +61,10 @@
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
+const turtles=["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+for(let turtle of turtles){
+  console.log(turtle.toUpperCase());
+}
 
 
 ////////////////////////////////
