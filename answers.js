@@ -61,15 +61,63 @@
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-const turtles=["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
-for(let turtle of turtles){
-  console.log(turtle.toUpperCase());
-}
+// const turtles=["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+// for(let turtle of turtles){
+//   console.log(turtle.toUpperCase());
+// }
 
 
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = [
+    "Jaws",
+    "The Fellowship of the Ring",
+    "Howl's Moving Castle",
+    "Django Unchained",
+    "Cloud Atlas",
+    "The Usual Suspects",
+    "Toy Story",
+    "Conan the Barbarian",
+    "Titanic",
+    "Harry Potter",
+    "Fried Green Tomatoes",
+    "Volver",
+    "Oculus",
+    "Seven",
+    "Black Panther",
+    "Harry Potter",
+    "Imitation of Life",
+    "Snatch",
+    "Fast and Furious",
+];
+console.log(favMovies.indexOf("Titanic"));
+console.log(favMovies.indexOf('Fast and Furious'));
+console.log(favMovies);
+console.log(favMovies.sort());
+console.log(favMovies);
+console.log(favMovies.pop());
+console.log(favMovies);
+console.log(favMovies.splice(1, 2))
+console.log(favMovies)
+console.log(favMovies.push("Guardians of the Galaxy"))
+console.log(favMovies);
+console.log(favMovies.reverse());
+console.log(favMovies.shift())
+console.log(favMovies)
+console.log(favMovies.unshift("New Movie"))
+console.log(favMovies)
+console.log(favMovies.indexOf("Django Unchained"))
+console.log(favMovies.splice(15, 1, "Avatar"))
+console.log(favMovies);
+console.log(favMovies);
+let halfOfTheArray = favMovies.length / 2;
+console.log(halfOfTheArray);
+console.log(favMovies.slice(7))
+console.log(favMovies);
+const variable = favMovies.slice(7);
+console.log(variable);
+console.log(favMovies)
 
 
 ////////////////////////////////
