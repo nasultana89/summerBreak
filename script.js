@@ -394,3 +394,11 @@
 
 // console.log(user)
 // console.log(user.name.toUpperCase())
+// function oldAndLoud(person){
+//     person.age++;
+//     person.name = person.name.toUppercase();
+// }
+
+// olaAndLoud(user);
+// console.log(user);
+ 
