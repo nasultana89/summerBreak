@@ -134,3 +134,29 @@ console.log(favMovies)
 //  Find the Median
 ////////////////////////////////
 
+// const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
+
+// function median(arr) {
+//     // Sort the array
+//     arr.sort((a, b) => a - b);
+
+//     const length = arr.length;
+//     const middle = Math.floor(length / 2);
+
+//     // Check if the array length is even or odd
+//     if (length % 2 === 0) {
+//         // If even, return the average of middle two elements
+//         return (arr[middle - 1] + arr[middle]) / 2;
+//     } else {
+//         // If odd, return the middle element
+//         return arr[middle];
+//     }
+// }
+
+
+// const arr1 = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14,];
+// console.log(median(arr1)); 
+
+// const arr2 = [19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
+// console.log(median(arr2)); 
+
